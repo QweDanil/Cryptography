@@ -17,6 +17,7 @@ class Picture():
             g, b = pix[key][1:3]
             draw.point(key, (elem, g, b))
             keys.append(key)
+            print(keys)
             f.write(str(key) + '\n')
 
         print('keys were written to the keys.txt file')
