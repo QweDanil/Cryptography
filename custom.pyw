@@ -18,7 +18,6 @@ crypto_picture = cryptopicture.Picture()
 window = customtkinter.CTk()
 window.title("Cryptography")  
 window.geometry("1100x600")
-
 font=customtkinter.CTkFont(size=15, weight="bold")
 
 image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "")
